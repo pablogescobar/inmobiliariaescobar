@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(127, 202, 255, 0.305);
+    
+}
+.logo{
+    width: 120px;
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px;
+   
+
+}  
+ 
+.menu:hover{background-color: rgb(127, 202, 255, 0.305);}
+
+    
+.im1{
+    width: 1900px;
+    
+}
+.ambientes{
+    display: flex;
+    
+    justify-content: center;
+
+}    
+.ventas{
+   display: flex;
+align-content: space-between;
+flex-direction: row;
+    width:
+     80px;
+    gap: 1rem
+    ;
+    
+}
+
+footer div{
+    
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    gap: 1rem;
+     
+}
+/*alquileres*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+background-color: aqua;
+}
+.menu_alq{
+    display: flex;
+    background-color: rgb(213, 246, 247);
+   text-align: justify;
+   justify-content: space-between;
+  
+ gap: 1rem;
+}
+
+h2{ 
+    text-align: center;
+    color: blue;
+}
+.slide{
+    margin-top: 10px;
+}
+.slide img{
+height: 55vh;
+}
+.casa{
+color: blue;
+text-decoration-line: underline;
+
+}
+
+/*sobre nosotros*/
+
+*{
+    margin: 0%;
+    padding: 0;
+    background-color: cornflowerblue;
+
+ 
+}
+.h1 sobre_nosotros{
+    text-decoration: underline;
+}
+
+/*contacto*/
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    background-color: rgba(127, 255, 212, 0.105);
+}
