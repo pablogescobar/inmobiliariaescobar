@@ -30,7 +30,9 @@
     
     justify-content: center;
 
-}    
+}   
+
+
 /*ventas*/
 body{
     text-align: center;
@@ -39,13 +41,13 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto ;
-   
-    width: 100%;
+    width: 100%;    
     margin: 0 auto;
     background-color: aquamarine;
     padding: 55px;
     border: 1px solid black;
     grid-auto-rows: 140px;
+  
     
     
     
@@ -55,7 +57,11 @@ body{
     width: 50%;
     height: 120%;
     object-fit: cover;
+    gap: 1;
+
 }
+
+
 .ventaa {
     display: contents;
     
@@ -64,9 +70,14 @@ body{
   
     text-align: center;
     line-height: 150px;      
-    
+   
 
 }
+
+
+
+
+    
 
 footer div{
     
@@ -81,23 +92,29 @@ footer div{
 *{
     margin: 0;
     padding: 0;
-background-color: aqua;
+background-color:(127, 255, 212, 0.105)
+}
+.bod{
+    background-color: rgba(127, 255, 212, 0.105);
 }
 .menu_alq{
     display: flex;
-    background-color: rgb(213, 246, 247);   
- object-fit: cover;
+    background-color:rgba(127, 255, 212, 0.105)  
+ 
 }
 
 h2{ 
     text-align: center;
-    color: blue;
+   font-style: under line;
+   
 }
 .slide{
-    margin-top: 1px;
-}
+    margin-top: 1rem;
+    }
+
 .slide img{
-height: 55vh;
+height: 40vh;
+
 }
 .casa{
 color: blue;
@@ -129,7 +146,7 @@ font-size: medium;
 
 /*terrenos*/
 body{
-    
+    background-color: rgba(127, 255, 212, 0.105);
     font-family: Arial, Helvetica, sans-serif;
 }
 .grid-layout{
@@ -184,3 +201,52 @@ body{
     object-fit: cover;
     
 }
+/*grid*/
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    border-radius: 100px;
+    transition: transform 0.2s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.grid-item:hover{
+   filter: opacity(0.9);
+   transform: scale(1.04);
+}
+.grid-container{
+    display: grid;
+grid-template-columns:1fr 1fr 1fr ;
+ grid-template-columns: repeat( auto-fill, minmax( 250px, 1fr 1fr)) ;
+grid-auto-rows: minmax(200px, auto);
+gap: 20px;
+border-style: double;
+
+}
+
+@media screen and (max-width: 680px){
+    .grid-container{
+        background-color: blueviolet;
+    }
+}
+@media screen and  (max-width: 450px){
+    .grid-container{
+        background-color: burlywood;
+    }
+}    
+  /* pseudoclase/*/
+
+.link:visited{
+   color: brown;
+}
+.linkk:hover{
+    color:rgb(0, 149, 255);
+    background-color: rgba(128, 255, 0, 0.172);
+
+}    
